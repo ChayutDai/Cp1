@@ -76,8 +76,11 @@
                     <div class="col-md-8 offset-md-2">
                     	<p class="intro-text">Hello Everybody</p>
                         <h1 class="brand-heading">I am Chayut(Dai)</h1>
-                        <p class="intro-text">
-                           <br>I'm web developer.</p>
+                        <div id="typed-strings">
+             			   <span>I'm <strong>Web Developer</strong>.</span>
+               			   <span>This Web is <strong>My Resume</strong>.</span>
+            			</div><span id="typed" style="white-space:pre;"></span>
+            			<br>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -107,5 +110,31 @@
     <script src="dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <!-- Typed.JS Animated writting -->
+    <script src="js/typed.js"></script>
+	<script>
+  		
+  	document.addEventListener('DOMContentLoaded', function(){
+
+        Typed.new("#typed", {
+            stringsElement: document.getElementById('typed-strings'),
+            typeSpeed: 30,
+            backDelay: 500,
+            loop: false,
+            contentType: 'html', // or text
+            // defaults to null for infinite loop
+            loop: !0,
+            startDelay: 1000,
+           
+
+           
+        });
+
+    });
+       
+
+	</script>
+
+
   </body>
 </html>
