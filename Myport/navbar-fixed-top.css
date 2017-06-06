@@ -13,8 +13,12 @@ h6{
 	color: #fff;
 }
 
+
+
 body {
-  font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+
+  font-family: 'Kanit', sans-serif;
   position: relative;
   width: 100%;
   height: 100%;
@@ -50,11 +54,11 @@ body {
 .masthead {
   display: table;
   width: 100%;
-  height: auto;
-  padding: 100px 0;
+  height: 100%;
+  padding: 0;
   text-align: center;
   color: white;
-  background: url(img/intro-bg.jpg) no-repeat bottom center scroll;
+  background: url(img/pexels-photo-176851.jpeg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -66,15 +70,16 @@ body {
     .masthead .intro-body .brand-heading {
       font-size: 40px; }
     .masthead .intro-body .intro-text {
-      font-size: 18px; }
+      font-size: 20px; }
   @media (min-width: 768px) {
     .masthead {
       height: 100%;
-      padding: 0; }
+      padding: 0;      
+  }
       .masthead .intro-body .brand-heading {
         font-size: 100px; }
       .masthead .intro-body .intro-text {
-        font-size: 22px; } }
+        font-size: 30px; } }
 
 .container {
   width:  100%;
@@ -89,6 +94,7 @@ body {
 .typed-cursor{
     opacity: 1;
     font-weight: 100;
+    font-size: 30px;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     -ms-animation: blink 0.7s infinite;
