@@ -91,6 +91,44 @@ body {
   position: relative;
 }
 
+.about-me {
+  display: table;
+  width: 100%;
+  /*
+   height: 100%;
+  */
+  padding-top: 30px;
+  text-align: center;
+  color: black;
+  /* 
+   background: url(img/pexels-photo-176851.jpeg) no-repeat bottom center scroll;
+  */
+  background-color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+   .about-me h1{
+      color: black;}
+   .about-me p{
+      color: black;}
+    
+   .about-me .endline{
+    border: 0;
+    width: 150px;
+    border-top: 2px solid red;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;}
+
+.slide-down{
+    position: absolute;
+    top: 450px;
+    left: 50%;
+}
+
+  
 .typed-cursor{
     opacity: 1;
     font-weight: 100;
