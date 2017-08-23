@@ -123,11 +123,28 @@ body {
     margin-bottom: 20px;}
 
 .slide-down{
-    position: absolute;
-    top: 450px;
-    left: 50%;
+    position: fixed;
+	-webkit-animation-name: blink-icon;
+    top: 90%;
+    width: 100%;
+	animation: blink-icon 1.5s linear infinite;
 }
 
+@keyframes blink-icon{
+    0% { opacity:1; }
+    50% { opacity:0; top:88%;}
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink-icon{
+    0% { opacity:1; }
+    50% { opacity:0; top:88%;}
+    100% { opacity:1; }
+}
+@-moz-keyframes blink-icon{
+    0% { opacity:1; }
+    50% { opacity:0; top:88%;}
+    100% { opacity:1; }
+}
   
 .typed-cursor{
     opacity: 1;
